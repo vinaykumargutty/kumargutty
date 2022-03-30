@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+.image img{
+    border-radius: 150px;
+}
+.image h2{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+   
+}
+.one{
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(to top ,#2f4353 10%,#d2ccc4 75%);
+    border-radius: 10px;
+    position: absolute;
+    border: 2px solid darkgray;
+}
+.nav{
+    margin-left: 300px;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    padding-left: 25%;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    background: linear-gradient(to top ,#2f4353 10%,#d2ccc4 75%);
+}
+.nav ul li{ 
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-left: 50px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav ul li:hover{
+    background: gray;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius:10px;
+    transition: 0.4s;
+}
+.menu{
+    display: none;
+}
+.nav ul li:hover .menu{
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: 5px;
+    margin-left: -5px;
+    border-radius: 10px;
+    
+}
+.nav ul li:hover .menu ul{
+    display:block;
+    margin: 2px;
+}
+.nav ul li:hover .menu ul li{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    text-align: left;
+
+}
+.nav ul li:hover .menu ul li a:hover{
+     color: white;
+}
+
+.main1{
+    width: 77.9%;
+    height: 90.8%;
+    border: 3px solid blue;
+    margin-left: 300px;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%),url(https://www.travelgluttons.com/wp-content/uploads/2014/12/espresso.jpeg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.login{
+    width: 270px;
+    height: 400px;
+    background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    margin-top:150px;
+    margin-left: 740px;
+    border-radius: 10px;
+    padding: 25px;
+    border: 2px solid gray;
+    position: absolute;
+    transition: 0.5s;
+
+}
+.login h2{
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    border: 3px solid gray;
+}  
+.login input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid crimson;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    
+}
+.login input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.b1{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    background: gray;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s ease;
+}
+.b1:hover{
+    background: white;
+}
+.b1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login .pra{
+    font-size: 17px;
+    padding-top:30px;
+    text-align: center;
+    color: white;
+}
+
+.login .pra a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+}
+
+
+.login:hover{
+    background: gray;
+}
+.login:hover h3{
+    color:black;
+}
+.login:hover ::placeholder{
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
